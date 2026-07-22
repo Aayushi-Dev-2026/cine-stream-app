@@ -65,3 +65,30 @@ npm run dev
 **Details View**: Overlay modal rendering rich metadata fetched directly via IMDb IDs.
 
 ---
+
+## 📸 Application Screenshots
+
+### 1. Main Search & Exploration Workspace
+![Main Search Workspace](home-search.png)
+
+---
+
+### 2. Interactive Movie Details Modal
+![Interactive Movie Details Modal](movie-details-modal.png)
+
+---
+
+### 3. Image Error Handling & Fallback System
+![Poster Fallback System](poster-fallback.png)
+
+---
+
+### 4. Search Results Grid Layout
+![Search Results Layout](search-results.png)
+
+---
+
+## 🔗 Live Demo
+**View the site live here:** [Insert your Vercel or Netlify link here]
+
+---
