@@ -7,7 +7,15 @@ const MovieCard = ({ movie, onSelectMovie }) => {
 
   return (
     <div style={styles.card} onClick={() => onSelectMovie(movie.imdbID)}>
-      <img src={posterUrl} alt={movie.Title} style={styles.poster} />
+      <img 
+        src={posterUrl} 
+        alt={movie.Title} 
+        style={styles.poster} 
+        onError={(e) => {
+          e.target.onerror = null; 
+          e.target.src = 'https://via.placeholder.com/300x450?text=No+Poster';
+        }}
+      />
       <div style={styles.info}>
         <h3 style={styles.title}>{movie.Title}</h3>
         <p style={styles.year}>{movie.Year} • {movie.Type?.toUpperCase()}</p>
