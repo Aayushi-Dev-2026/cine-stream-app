@@ -60,8 +60,6 @@ npm run dev
 ## 📸 Application Preview:
 **Home Grid**: Dynamic card grid rendering movie titles, release years, and media categories.
 
----
-
 **Details View**: Overlay modal rendering rich metadata fetched directly via IMDb IDs.
 
 ---
